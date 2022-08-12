@@ -168,6 +168,7 @@ body{
 
 #about p{
     font-size: 16px;
+    text-align: center;
 }
 
 
@@ -219,6 +220,29 @@ body{
     font-style: italic;
 }
 
+
+/*------  Media Queries --------*/
+
+@media screen and (max-width: 576px) {
+
+    .nav-container .nav-main .nav-menu{
+        display: none;
+    }
+
+    #titles .card{
+        flex-direction: column;
+        height: 435px;
+        width: 300px;
+        
+    }
+
+    #titles .card img{
+        width: 300px;
+        height: 300px;
+    }
+
+    
+}
 
 
 

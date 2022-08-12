@@ -1,0 +1,224 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+
+/*---------- Header ---------*/
+
+
+.nav-container{
+    height: 100px;
+    background-color: rgb(19, 26, 34);
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+   
+   
+}
+
+.nav-container .nav-main{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    justify-content: space-between;
+    max-width: 960px;
+    
+}
+
+.nav-container .nav-main .nav-logo{
+    font-size: 30px;
+    font-weight: 700;
+    color: white;
+}
+
+.nav-container .nav-main .nav-menu {
+    display: flex;
+    align-items: center;
+}
+
+.nav-container .nav-main .nav-menu li{
+    list-style: none;
+    margin-left: 20px;
+}
+
+.nav-container .nav-main .nav-menu li a{
+    color: rgb(135, 226, 230);
+    text-decoration: none;
+    font-size: 14px;
+}
+
+/*---------- Categorias ---------*/
+
+#categorys{
+    height: 200px;
+    background-color: rgb(35, 47, 62);
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#categorys h2{
+    color: #eb8f05;
+    font-size: 24px;
+    
+}
+
+.categorys-item{
+    list-style: none;
+    margin-top: 20px;
+    
+}
+
+.categorys-item li{
+    color: #d2d2d2;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+
+
+
+/*---------- Titles ---------*/
+
+#titles{
+    background-color: #ccc;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#titles h2{
+    text-align: center;
+    color: #555;
+    margin-bottom: 60px;
+}
+
+#titles .card{
+    display: flex;
+    background-color: rgb(221, 221, 221);
+    border-radius: 10px;
+    width: 500px;
+    height: 200px;
+    margin-bottom: 40px;
+    
+    
+}
+
+#titles .card img{
+    border-radius: 10px 0 0 10px;
+    width: 200px;
+}
+
+#titles .card .item-description{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 15px;
+    width: 300px;
+    
+}
+
+#titles .card .item-description .price{
+    color: #5aa04e;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+#titles .card .item-description .price .price-value{
+    font-size: 28px;
+}
+
+
+
+/*---------- About ---------*/
+
+#about{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(35, 47, 62);
+    padding: 40px;
+}
+
+#about .about-title{
+    color: #eb8f05;
+}
+
+#about .about-subtitle, #about p{
+    color: #d2d2d2;
+}
+
+#about .about-subtitle{
+    margin: 15px 0;
+}
+
+#about p{
+    font-size: 16px;
+}
+
+
+
+/*---------- Footer ---------*/
+
+.contact-container{
+    background-color: rgb(19, 26, 34);
+    height: 200px;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    
+}
+
+.contact-main{
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+    height: 100%;
+
+}
+
+.contact-container .contact-main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contact-main h2, .contact-main p{
+    color: #eee;
+}
+
+.contact-main h2{
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+.contact-main p, .contact-main a{
+    font-size: 12px;
+}
+
+.contact-main a{
+    text-decoration: none;
+    color: #8be8f4;
+}
+
+.contact-main p {
+    font-style: italic;
+}
+
+
+
+
